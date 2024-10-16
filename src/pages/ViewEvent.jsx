@@ -45,7 +45,9 @@ const ViewEvent = () => {
                     <div className="event-view-left">
                         <img src={event.imageurl} alt={event.title} className='img-card' />
                         <div className='event-content-desc'>
-                            {event.description}
+                            <h4>
+                                {event.description}
+                            </h4>
                         </div>
                     </div>
                     <div className="event-view-right">
